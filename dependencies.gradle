@@ -1,0 +1,15 @@
+repositories {
+    maven { url "https://ladysnake.jfrog.io/artifactory/mods" }
+}
+
+dependencies {
+    modImplementation meganeModule("api:7.0.0")
+    modRuntimeOnly meganeModule("runtime:7.0.0")
+    modRuntimeOnly meganeModule("vanilla:7.0.0")
+
+    modImplementation "curse.maven:kibe-388832:3524209"
+
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.42.2+1.18"
+    modImplementation "net.fabricmc:fabric-language-kotlin:1.6.0+kotlin.1.5.0"
+    modImplementation "io.github.ladysnake:PlayerAbilityLib:1.4.0"
+}
