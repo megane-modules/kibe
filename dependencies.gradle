@@ -3,13 +3,13 @@ repositories {
 }
 
 dependencies {
-    modImplementation meganeModule("api:7.0.0")
-    modRuntimeOnly meganeModule("runtime:7.0.0")
-    modRuntimeOnly meganeModule("vanilla:7.0.0")
+    modImplementation meganeModule("api:7.1.0")
+    modRuntimeOnly meganeModule("runtime:7.2.0")
+    modRuntimeOnly meganeModule("vanilla:7.1.0")
 
-    modImplementation "curse.maven:kibe-388832:3524209"
+    modImplementation "curse.maven:kibe-388832:3671408"
 
-    modImplementation "net.fabricmc.fabric-api:fabric-api:0.42.2+1.18"
-    modImplementation "net.fabricmc:fabric-language-kotlin:1.6.0+kotlin.1.5.0"
-    modImplementation "io.github.ladysnake:PlayerAbilityLib:1.4.0"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.47.9+1.18.2"
+    modImplementation "net.fabricmc:fabric-language-kotlin:1.7.1+kotlin.1.6.10"
+    modImplementation "io.github.ladysnake:PlayerAbilityLib:1.5.0"
 }
